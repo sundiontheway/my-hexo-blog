@@ -5,8 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Steve Sun'
 SITENAME = u'Way2Steve'
 SITEURL = 'http://www.v2steve.com'
-SITESUBTITLE = 'The journey is the reward.'
-
+AUTHOR_BIO = 'The journey is the reward.'
 PATH = 'content'
 
 TIMEZONE = 'Asia/Shanghai'
@@ -25,6 +24,8 @@ DEFAULT_DATE_FORMAT = '%Y-%m-%d(%a)'
 # Blogroll
 LINKS = (
             ('aboutMe', 'http://www.v2steve.com/wo.html'),
+            ('github', 'http://github.com/sundiontheway/'),
+            ('weibo', 'http://weibo.com/smartdie'),
         )
 
 # Social widget
