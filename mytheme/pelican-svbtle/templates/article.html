@@ -6,8 +6,9 @@
 			<a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
 				title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
 		</h1>
+        <div style="font-size:15px;width:960px;text-align:justify; text-justify:inter-ideograph">
 		{{ article.content }}
-
+        </div>
 		<div id="article_meta">
 			{% if not article.category == 'posts' %}
 				Category:

@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Steve Sun'
 SITENAME = u'Way2Steve'
 SITEURL = 'http://www.v2steve.com'
+SITESUBTITLE = 'The journey is the reward.'
 
 PATH = 'content'
 
@@ -23,7 +24,7 @@ DEFAULT_DATE_FORMAT = '%Y-%m-%d(%a)'
 
 # Blogroll
 LINKS = (
-            ('aboutMe', 'http://v2steve.com/'),
+            ('aboutMe', 'http://www.v2steve.com/wo.html'),
         )
 
 # Social widget
@@ -32,6 +33,7 @@ SOCIAL = (
             ('weibo', 'http://weibo.com/smartdie'),
          )
 
+GITHUB_URL = 'http://github.com/sundiontheway/'
 DEFAULT_PAGINATION = 10
 
 THEME = "./mytheme/pelican-svbtle/"
