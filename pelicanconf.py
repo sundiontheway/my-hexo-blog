@@ -34,4 +34,4 @@ SOCIAL = (
 
 DEFAULT_PAGINATION = 10
 
-THEME = "./mytheme/pelican-simplegrey/"
+THEME = "./mytheme/pelican-svbtle/"
