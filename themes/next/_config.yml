@@ -58,8 +58,8 @@ toc_list_number: true
 
 # Automatically Excerpt
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 450
 
 # Use Lato font
 # Note: this option is avialable only when the language is not `zh-Hans`
