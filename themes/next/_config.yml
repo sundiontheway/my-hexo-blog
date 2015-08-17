@@ -58,7 +58,7 @@ toc_list_number: true
 
 # Automatically Excerpt
 auto_excerpt:
-  enable: true
+  enable: false
   length: 450
 
 # Use Lato font
