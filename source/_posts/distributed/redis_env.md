@@ -3,7 +3,7 @@ date: 2015-02-27
 tags: redis
 ---
 
-###1 Redis的安装
+### 1 Redis的安装
 
 
 1 下载安装包：
@@ -72,7 +72,7 @@ Redis的配置redis.conf
     activerehashing 重新hash
 
 
-###2 基本操作
+### 2 基本操作
 
 *操作相关的命令连接*
 

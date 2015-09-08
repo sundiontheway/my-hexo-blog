@@ -3,7 +3,7 @@ date: 2014-03-01
 tags: doubango
 ---
 
-###数据结构
+### 数据结构
 cmd_t用来保存从命令行读取的命令内容
 
 ```c
@@ -128,7 +128,7 @@ lv_t的声明如下：
     lv_t;
 ```
 
-###tinyDEMO操作流程
+### tinyDEMO操作流程
 main函数通过命令行读入命令参数，将参数保存在cmd_t结构中。传给execute函数，
 execute通过switch语句判断`cmd->type`分别处理不同的操作，以register和audiovideo操
 作为例：

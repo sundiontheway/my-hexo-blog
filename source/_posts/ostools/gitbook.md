@@ -6,7 +6,7 @@ tags: gitbook
 ### 简介
 Gitbook是一个命令行工具(node.js库)， 使用Github/Git创建漂亮的图书。 你可以看一些用它编写的图书的例子： 学习Javascript. 你也可以很容易的通过gitbook.io网站发布在线图书。 editor 是一个图形化的编辑工具， 提供Windows, Mac 和Linux的版本. 关注Twitter帐号 @GitBookIO. 这篇文章只是一个起步教程， 完整的文档可以在help.gitbook.io网站找到. 
 
-###怎么用
+### 怎么用
 GitBook 可以通过 NPM 安装
 
     $ npm install gitbook -g
@@ -98,7 +98,7 @@ GitBook 会从仓库中的book.json文件加载默认的配置，前提是此文
 }
 ```
 
-###输出格式
+### 输出格式
 
 GitBook可以产生下列类型的图书:
 
@@ -149,19 +149,19 @@ Definition for this term
 With it's definition, this can contain bold text and all other kinds of inline markup ...
 ```
 
-###忽略文件和文件夹
+### 忽略文件和文件夹
 
 GitBook 读取`.gitignore`, `.bookignore` 和 `.ignore` 得到需要忽略的文件/文件夹的列表. (文件的格式和`.gitignore`一样).
 
 `.gitignore`最佳实践是忽略build文件，这些文件来自 `node.js` (`node_modules`, ...) 和GitBook的build文件: `_book`, `*.epub`, `*.mobi` 和`*.pdf`.
 
-###封面
+### 封面
 
 封面文件为: `/cover.jpg`. 尺寸为 1800x2360. 插件 autocover可以自动创建一个文件.
 
 封面的小尺寸图形为: `/cover_small.jpg`.
 
-###发布图书
+### 发布图书
 
 平台 GitBook.io就像"Heroku for books": 你可以在它上面创建图书 (公开的, 付费的, 或者私有的)， 并且使用 git push 就可以更新.
 
@@ -191,7 +191,7 @@ P插件可以扩展图书的功能. 查看插件介绍 GitbookIO/plugin来了解
  |	Heading Anchors  |		Add linkable Github-style anchors to headings
  |	JSBin 	 |	Embedded jsbin frame into your book
 
-###调试
+### 调试
 
 增加环境变量 DEBUG=true 来得到更好的错误信息(包含错误堆栈). 例如:
 
