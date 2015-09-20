@@ -6,7 +6,7 @@ tags: python
 最近找工作面试了几家公司，发现自己很多问题拿不准，所以决定从头开始把 web 开发这块的知识整理一下。
 以下是近期的学习计划，仅作梳理知识之用：
 
-__ 根据《 Python 网络编程攻略》真本书的内容，针对每章知识做练习编程 __
+__ 根据《 Python 网络编程攻略》的内容，针对每章知识做练习编程 __
 
 练习题的源码放在github上，地址：<https://github.com/sundiontheway/python-exercise>
 
