@@ -4,8 +4,8 @@
 
 # Site
 title: way2steve
-subtitle: The way to be Steve
-description: The way to be Steve
+subtitle: The way to become Steve.
+description: My Trash.
 author: Steve D. Sun
 language: zh-Hans
 timezone:
@@ -25,7 +25,7 @@ source_dir: source
 public_dir: public
 tag_dir: tags
 archive_dir: archives
-category_dir: categories
+# category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -90,7 +90,6 @@ jiathis: true
 social:
   GitHub: http://github.com/sundiontheway
   Weibo: http://weibo.com/smartdie
-  ZhiHu: http://www.zhihu.com/people/steve-sun-69
 
 
 # Creative Commons 4.0 International License.
