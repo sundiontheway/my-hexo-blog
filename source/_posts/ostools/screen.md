@@ -3,9 +3,10 @@ p: /ostools/screen.md
 date: 2016-01-07 14:54:40
 tags: screen
 ---
-进入sceen输入`C-a ?`都可以显示快捷键说明。  
 
-__外部常用命令__：
+进入sceen输入`C-a ?`可以显示快捷键说明。  
+
+__shell命令__：
 
 `screen -S name` 启动一个新screen session  
 `screen -x` 恢复到最后一个Detached的session
@@ -29,10 +30,24 @@ There is a screen on:
         9975.pts-0.localhost    (Detached)
 1 Socket in /var/run/screen/S-root.
 ```
-__内部常用命令__:
+__快捷键__:
 
 `C-a d` 挂起（Detached）当前session
 `C-a "` 显示session列表，可以上下切换
 
-以上基本能够解决我的需要了，其他常用命令可以参考[这里](https://www.ibm.com/developerworks/cn/linux/l-cn-screen/)
+_嵌套的 Screen 会话_
+
+在一个嵌套的 screen 会话中卡住是非常容易的。一个常见的情况是：  
+你从一个 screen 会话内启动了一个 ssh 会话，在这个 ssh 会话中，你又启动了 screen。默认地，响应 `C-a` 命令的是最先启动的外层screen。如果要向内层 screen 输入命令，用 `C-a a` 加上你的命令。  
+例如： 
+
+	C-a a d
+	
+断开内层 screen 会话
+
+	C-a a K
+	
+杀死内层 screen 会话
+
+以上基本能够解决我的需要了，其他常用命令可以参考[这里](https://wiki.archlinux.org/index.php/GNU_Screen_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
 
