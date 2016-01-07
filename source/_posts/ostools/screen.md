@@ -49,5 +49,5 @@ _嵌套的 Screen 会话_
 	
 杀死内层 screen 会话
 
-以上基本能够解决我的需要了，其他常用命令可以参考[这里](https://wiki.archlinux.org/index.php/GNU_Screen_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))
+以上基本能够解决我的需要了，其他常用命令可以参考[这里](https://wiki.archlinux.org/index.php/GNU_Screen)
 
