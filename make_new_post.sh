@@ -1,5 +1,5 @@
 name=$1
 path=$2
 
-nvm use
+# Firstly do `nvm use`
 hexo new post $name -p $path
