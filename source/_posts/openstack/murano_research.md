@@ -1,7 +1,7 @@
 title: Openstack--Murano篇
 p: openstack/
 date: 2016-01-05 15:16:07
-tags: murano
+tags: openstack
 ---
 
 从今天开始学习Openstack关于应用商店的模块——Murano。我的将以官方源码为基础，以文档为辅助，首先梳理出部署方法、调试方法、源码结构、应用开发流程。
