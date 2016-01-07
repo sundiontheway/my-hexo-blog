@@ -3,12 +3,12 @@ p: /ostools/screen.md
 date: 2016-01-07 14:54:40
 tags: screen
 ---
-进入sceen厚输入`C-a ?`都可以显示快捷键说明。  
+进入sceen输入`C-a ?`都可以显示快捷键说明。  
 
 __外部常用命令__：
 
 `screen -S name` 启动一个新screen session  
-`screen -x` 恢复到最后一个Detached的session`
+`screen -x` 恢复到最后一个Detached的session
 
 如果想杀死一个已经detached的screen会话，可以使用以下命令：
 

@@ -16,7 +16,7 @@ tags: openstack
 * murano-dashboard - Murano UI implemented as a plugin for OpenStack Dashboard.
 * python-muranoclient - Client library and CLI client for Murano.
 
-[Murano的「部署」]()  
+[Murano的「部署」](http://www.v2steve.com/2016/01/06/openstack/murano_env/)  
 [Murano的「调试」]()  
 [Murano的「源码结构」]()  
 [Murano的「应用开发」]()  
