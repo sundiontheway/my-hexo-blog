@@ -5,6 +5,8 @@ tags: macbook
 
 __注意，ubuntu和xubuntu安装上有一定差别，请严格按照你选择的系统版本流程安装__
 
+<!--more-->
+
 ### ubuntu
 ### 准备工作
 ##### 分区

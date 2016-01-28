@@ -3,12 +3,17 @@ date: 2013-01-04
 tags: bash
 ---
 
+Linux Shell使用技巧整理。
+
+<!--more-->
+
 ### 给shell增加每日提示
 在`~/.bashrc`里，最后添加一条语句
 
     echo "Did you know that:"; whatis $(ls /bin | shuf -n 1)
 
 这样每次打开终端，就会打印一条命令提示。
+
 
 ### 让git带颜色
 在终端输入如下命令即可

@@ -3,8 +3,9 @@ date: 2014-01-01
 tags: gitbook
 ---
 
-### 简介
 Gitbook是一个命令行工具(node.js库)， 使用Github/Git创建漂亮的图书。 你可以看一些用它编写的图书的例子： 学习Javascript. 你也可以很容易的通过gitbook.io网站发布在线图书。 editor 是一个图形化的编辑工具， 提供Windows, Mac 和Linux的版本. 关注Twitter帐号 @GitBookIO. 这篇文章只是一个起步教程， 完整的文档可以在help.gitbook.io网站找到. 
+
+<!--more-->
 
 ### 怎么用
 GitBook 可以通过 NPM 安装

@@ -3,9 +3,14 @@ date: 2013-01-04
 tags: meld
 ---
 
+使用meld作为git可视化的diff工具。
+
+<!--more-->
+
 _1: ubuntu安装meld_
 
     sudo apt-get install meld
+
 
 _2: 在`~/`目录下创建文件并编辑_
 

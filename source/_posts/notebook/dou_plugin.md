@@ -3,6 +3,10 @@ date: 2014-03-01
 tags: doubango
 ---
 
+Doubango的生产者-消费者模式，三种插件的注册流程。
+
+<!--more-->
+
 `tmedia_producer.c`中的`tmedia_producer_create`这个函数：
 
 ```c

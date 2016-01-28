@@ -4,6 +4,10 @@ date: 2016-01-07 14:54:40
 tags: screen
 ---
 
+Linux多窗口后台工具screen的常用操作。
+
+<!--more-->
+
 进入sceen输入`C-a ?`可以显示快捷键说明。  
 
 __shell命令__：

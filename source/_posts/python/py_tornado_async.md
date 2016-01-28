@@ -5,6 +5,8 @@ tags: python, tornado
 
 刚接触tornado时候最疑惑的问题就是tornado.gen.coroutine是怎么实现的。如何在代码中用同步格式实现异步效果。看了几次源码发现其实就是python协程的一个具体应用。下面从生成器开始，说说tornado的异步。
 
+<!--more-->
+
 ### python协程
 
 python利用yield关键字实现生成器，yield就像生化危机里的T病毒，被yield感染的函数都不仅仅是函数，而是一个函数生成器。函数生成器实例化后可以不断调用next方法吐出yield后的值。见下面代码：

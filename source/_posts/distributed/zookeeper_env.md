@@ -3,8 +3,9 @@ date: 2014-10-11
 tags: zookeeper
 ---
 
-### 什么是zookeeper
 简单的说，zookeeper设计来解决分布式应用中的统一命名服务，状态同步服务，集群管理，分布式应用配置等问题。
+
+<!--more-->
 
 ### zookeeper的安装
 

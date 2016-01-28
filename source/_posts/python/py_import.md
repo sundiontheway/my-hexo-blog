@@ -3,6 +3,10 @@ date: 2014-01-01
 tags: python
 ---
 
+Python的import机制注意事项。
+
+<!--more-->
+
 *引入方式*
 
     from .. import module_name

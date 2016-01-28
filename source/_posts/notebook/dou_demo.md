@@ -3,10 +3,13 @@ date: 2014-03-01
 tags: doubango
 ---
 
+Doubango模块DEMO的调试。
+
+<!--more-->
+
 ###启动脚本
 doubango的demo可以在终端输入命令，也可以使用dssl语法写的脚本文件来执行(可以仿照tinyDEMO 目录下的sample.sn 来写)
 以下就是根据我们自己的环境配置的启动脚本,假设保存为test.sn文件
-
 
 ```bash
     ## For more information about scenarios, please refer to the Programmer's Guide

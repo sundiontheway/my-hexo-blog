@@ -1,5 +1,7 @@
 title: about
 date: 2013-01-01
+comments: false
+
 ---
 
     __me__ = {

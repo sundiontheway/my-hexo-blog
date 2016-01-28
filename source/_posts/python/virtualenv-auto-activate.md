@@ -5,6 +5,8 @@ tags: python
 
 当我们`cd`命令进入Openstack工程目录时会自动加载当前目录`.venv`虚拟环境。我今天研究了一下，发现是一个Linux的环境变量在发挥作用——`PROMPT_COMMAND`
 
+<!--more-->
+
 >PROMPT_COMMAND
 >
 >If set, the value is executed as a command prior to issuing each primary prompt.

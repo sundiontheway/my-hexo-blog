@@ -4,11 +4,11 @@ tags: zookeeper
 ---
 
 原文地址：
-<http://zookeeper.apache.org/doc/r3.4.6/zookeeperProgrammers.html>
+<http://zookeeper.apache.org/doc/r3.4.6/zookeeperProgrammers.html>  
+翻译：$teve  
+博客地址：<http://www.v2steve.com>  
 
-
-__翻译：steve sun__
-博客地址：<http://www.v2steve.com>
+<!--more-->
 
 本文假设你已经具有一定分布式计算的基础知识。你将在第一部分看到以下内容：
 

@@ -3,6 +3,10 @@ date: 2013-01-01
 tags: github
 ---
 
+新机器配置github ssh-key的简介。
+
+<!--more-->
+
 ### 下载ssh,git
 
     sudo apt-get install ssh git
@@ -11,6 +15,7 @@ tags: github
 
     git config --global user.name yourname
     git config --global user.email youremail
+
 
 ### 生成公钥
 在～/下输入

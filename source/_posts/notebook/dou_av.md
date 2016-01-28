@@ -3,6 +3,10 @@ date: 2014-03-01
 tags: doubango
 ---
 
+本文分析一下Doubango模块中音视频插件的注册和初始化机制。
+
+<!--more-->
+
 ### 插件的定义
 先来看一段demo里音频输入插件audio producer的代码：
 
