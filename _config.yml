@@ -4,8 +4,8 @@
 
 # Site
 title: way2steve
-subtitle: The way to become Steve.
-description: My Trash.
+subtitle: The Journey is the Reward.
+description: The trush of my mind.
 author: Steve D. Sun
 language: zh-Hans
 timezone:
@@ -90,7 +90,7 @@ jiathis: true
 # 社交链接，将在侧栏中显示
 social:
   GitHub: http://github.com/sundiontheway
-  Weibo: http://weibo.com/smartdie
+  twitter: https://twitter.com/way2steve
 
 
 # Creative Commons 4.0 International License.
