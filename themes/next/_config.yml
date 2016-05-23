@@ -168,10 +168,10 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-duoshuo_shortname: v2steve
+# duoshuo_shortname: v2steve
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: v2steve
 
 # Share
 #jiathis:
@@ -185,7 +185,7 @@ duoshuo_shortname: v2steve
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-64688885-1
 
 
 # Make duoshuo show UA
