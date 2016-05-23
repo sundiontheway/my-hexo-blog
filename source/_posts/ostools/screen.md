@@ -1,7 +1,8 @@
-title: screen常用命令小结
-p: /ostools/screen.md
+title: screen | 常用命令小结
 date: 2016-01-07 14:54:40
+categories: 经验分享
 tags: screen
+
 ---
 
 Linux多窗口后台工具screen的常用操作。

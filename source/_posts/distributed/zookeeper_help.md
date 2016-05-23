@@ -1,4 +1,4 @@
-title: ZooKeeper帮助手册
+title: ZooKeeper 帮助手册个人翻译版
 date: 2014-10-14
 tags: zookeeper
 ---

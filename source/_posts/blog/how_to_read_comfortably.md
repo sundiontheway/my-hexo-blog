@@ -1,7 +1,8 @@
 title: 打造高效率阅读环境
-p: /blog/how_to_read_comfortably.md
 date: 2016-01-29 13:03:05
+categories: 随笔
 tags: 阅读
+
 ---
 
 一直以来，阅读就是我工作之余的消遣。今天分享一下我阅读时如何通过营造氛围保持专注，并让夜间阅读环境更加舒适。

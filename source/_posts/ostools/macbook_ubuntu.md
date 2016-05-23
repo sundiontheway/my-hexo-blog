@@ -1,6 +1,8 @@
 title: macbook安装ubuntu
 date: 2013-01-04
+categories: 经验分享
 tags: macbook
+
 ---
 
 __注意，ubuntu和xubuntu安装上有一定差别，请严格按照你选择的系统版本流程安装__

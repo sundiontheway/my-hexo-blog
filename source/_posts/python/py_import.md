@@ -1,6 +1,8 @@
-title: 关于python上一级目录文件import的问题
+title: python | 上一级目录文件import的问题
 date: 2014-01-01
+categories: 经验分享
 tags: python
+
 ---
 
 Python的import机制注意事项。

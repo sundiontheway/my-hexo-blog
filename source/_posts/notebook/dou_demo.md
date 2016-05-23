@@ -1,6 +1,8 @@
-title: Doubango--DEMO
+title: Doubango | DEMO
 date: 2014-03-01
+categories: VoIP
 tags: doubango
+
 ---
 
 Doubango模块DEMO的调试。

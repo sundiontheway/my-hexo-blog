@@ -1,6 +1,8 @@
-title: Doubango--Demo提供的操作
+title: Doubango | Demo提供的操作
 date: 2014-03-01
+categories: VoIP
 tags: doubango
+
 ---
 
 这次分析一下Doubango模块DEMO里提供的操作。

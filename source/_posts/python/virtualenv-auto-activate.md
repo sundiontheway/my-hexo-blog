@@ -1,6 +1,8 @@
-title: 如何进入工程目录自动加载Python VirtualEnv
+title: Python VirtualEnv | 如何进入工程目录自动加载
 date: 2015-11-13
+categories: 经验分享
 tags: python
+
 ---
 
 当我们`cd`命令进入Openstack工程目录时会自动加载当前目录`.venv`虚拟环境。我今天研究了一下，发现是一个Linux的环境变量在发挥作用——`PROMPT_COMMAND`

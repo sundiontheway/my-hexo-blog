@@ -1,6 +1,8 @@
-title: Vim 怎么配置成 IDE
+title: Vim 适不适合变成IDE
 date: 2016-03-20 23:15:47
+categories: 随笔
 tags: vim
+
 ---
 
 

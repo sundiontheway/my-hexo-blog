@@ -1,6 +1,8 @@
-title: Doubango——proxy,pruducer,codec三种插件的创建
+title: Doubango | proxy,pruducer,codec三种插件的创建
 date: 2014-03-01
+categories: VoIP
 tags: doubango
+
 ---
 
 Doubango的生产者-消费者模式，三种插件的注册流程。

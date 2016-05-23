@@ -1,13 +1,13 @@
-title: 机器学习——学习笔记
+title: 机器学习 | 概述
 date: 2016-05-20
+categories: 机器学习
 tags: 机器学习
+
 ---
 
-今天开始跟着[斯坦福大学公开课 ：机器学习课程](http://open.163.com/special/opencourse/machinelearning.html) 系统的学习，或者叫复习一遍机器学习课程。
+今天开始跟着[斯坦福大学公开课 ：机器学习课程](http://open.163.com/special/opencourse/machinelearning.html) 系统的复习一遍机器学习课程。
 
 除了视频里讲课的内容，我还将对的课程中涉及到数学部分进行补充。
-
-## 第一课
 
 课程讲了机器学习的三个重要划分：
 
