@@ -51,8 +51,7 @@ POST /api/v1/namespaces/{namespace}/relicascontroller
 POST /api/v1/namespaces/{namespace}/services
 ```
 
-
-##参考资料：
+## 参考资料
 
 http://www.infoq.com/cn/articles/Kubernetes-API
 http://blog.liuts.com/post/247/
