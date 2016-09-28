@@ -2,6 +2,7 @@
 menu:
   Home: /
   Archives: /archives
+  About: /about
   # change github and email values to your own addresses
   Github: https://github.com/sundiontheway
   Email: mailto:sund.chn@gmail.com
