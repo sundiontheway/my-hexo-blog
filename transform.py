@@ -52,7 +52,7 @@ def _format(fsrc, fdst):
         content = src.read()
         num = _count_word(content.decode('utf-8'))
         rtime = int(num/500)
-        tag = '\n** 字数：%s  阅读时间：%s分钟 **\n\n' % (num, rtime)
+        tag = '\n** 本文%s字  %s分钟读完 **\n\n' % (num, rtime)
         cache.append(tag)
         cache.append(content)
         tmp = ''.join(cache)
