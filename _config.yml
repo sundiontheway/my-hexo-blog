@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: way2steve
-subtitle: Food for Thought.
-description: A little bit of workingman's blues.
+title: /home/steve
+subtitle: A little bit of workingman's blues.
+description: A blog of $teve.
 author: $teve D. Sun
 language: zh-Hans
 timezone:
@@ -64,10 +64,8 @@ per_page: 10
 pagination_dir: page
 
 # Extensions
-## Plugins: http://hexo.io/plugins/
-## Themes: http://hexo.io/themes/
-# theme: landscape
-theme: next
+#theme: next
+theme: aero-dual
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
