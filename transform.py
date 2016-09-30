@@ -15,6 +15,10 @@ tags:
 
 more_tag = '\n<!--more-->\n'
 
+cur_dir = os.path.dirname(__file__)
+post_dir = os.path.join(cur_dir, 'source/_posts')
+essay_dir = os.path.join(cur_dir, 'source/_essays')
+draft_dir = os.path.join(cur_dir, 'source/_drafts')
 
 def _count_word(text):
     num = 0
@@ -24,11 +28,11 @@ def _count_word(text):
     return num
 
 
-def _format(fsrc, fdst):
+def _format():
+    fsrc = os.path.join(draft_dir, fname)
     date = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
-    cache = []
-    tmp = ''
-    line = ''
+    cache, tmp, line = [], '', ''
+    mark = False
 
     with open(fsrc, 'r') as src:
         line = src.readline()
@@ -44,47 +48,46 @@ def _format(fsrc, fdst):
             elif '>' in line:
                 cache.append(line)
                 cache.append(more_tag)
+                mark = True
                 break
             else:
                 break
 
         content = src.read()
-        num = _count_word(content.decode('utf-8'))
-        rtime = int(num/500)
-        tag = '\n** 本文%s字  %s分钟读完 **\n\n' % (num, rtime)
-        cache.append(tag)
+
+        if mark:
+            num = _count_word(content.decode('utf-8'))
+            rtime = int(num/500)
+            tag = '\n** 本文%s字  %s分钟读完 **\n\n' % (num, rtime)
+            cache.append(tag)
+
         cache.append(content)
         tmp = ''.join(cache)
+
+    if mark:
+        fdst = os.path.join(essay_dir, fname)
+    else:
+        fdst = os.path.join(post_dir, fname)
+
+    print("Transform {0} --> {1}".format(fsrc, fdst))
 
     with open(fdst, 'w') as dst:
         dst.write(tmp)
 
+    # print("Remove {0}".format(fsrc))
+    # os.remove(src)
     return
 
 
 if __name__ == "__main__":
-    cur_dir = os.path.dirname(__file__)
-    post_dir = os.path.join(cur_dir, 'source/_posts')
-    draft_dir = os.path.join(cur_dir, 'source/_drafts')
-
     if len(sys.argv) > 1:
         title = sys.argv[1]
         fname = "%s.md" % title
-        src = os.path.join(draft_dir, fname)
-        dst = os.path.join(post_dir, fname)
-        print("Transform {0} --> {1}".format(src, dst))
-        _format(src, dst)
-        print("Remove {0}".format(src))
-        os.remove(src)
+        _format(fname)
     else:
         fnames = os.listdir(draft_dir)
         for fname in fnames:
             if fname.endswith('.md'):
-                src = os.path.join(draft_dir, fname)
-                dst = os.path.join(post_dir, fname)
-                print("Transform {0} --> {1}".format(src, dst))
-                _format(src, dst)
-                print("Remove {0}".format(src))
-                os.remove(src)
+                _format(fname)
 
 
