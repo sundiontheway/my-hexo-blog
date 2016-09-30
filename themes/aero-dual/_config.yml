@@ -1,8 +1,7 @@
 # Header Menu
 menu:
-  Home: /archives
-  Sitmap: /Sitmap
-  About: /about
+  Home: /
+  Index: /about
   Github: https://github.com/sundiontheway
 rss: /atom.xml
 
