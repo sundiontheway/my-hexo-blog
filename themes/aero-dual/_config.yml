@@ -1,11 +1,9 @@
 # Header Menu
 menu:
-  Home: /
-  Archives: /archives
+  Home: /archives
+  Sitmap: /Sitmap
   About: /about
-  # change github and email values to your own addresses
   Github: https://github.com/sundiontheway
-  Email: mailto:sund.chn@gmail.com
 rss: /atom.xml
 
 # Set to false to disable banner
