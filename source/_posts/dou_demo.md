@@ -1,7 +1,7 @@
 title: Doubango | DEMO
 date: 2014-03-01
 categories: 多媒体
-
+tags: doubango
 ---
 
 Doubango模块DEMO的调试。

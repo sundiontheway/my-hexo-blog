@@ -1,7 +1,7 @@
 title: Kubernetes (k8s) 运行实例总结
 date: 2016-07-21 14:39:29
 categories: 开源工具
-
+tags: kubernetes
 ---
 
 关于Kubernetes的结构，最近研究了一下，由于项目需要，所以结合我做的内容简单总结一下。

@@ -1,7 +1,7 @@
 title: Doubango | C++接口层
 date: 2014-03-01
 categories: 多媒体
-
+tags: doubango
 ---
 
 讲解一下Doubango模块C++接口层的封装分析。

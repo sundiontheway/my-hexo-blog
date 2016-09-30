@@ -1,6 +1,7 @@
 title: screen | 常用命令小结
 date: 2016-01-07 14:54:40
 categories: 开源工具
+tags: python
 
 ---
 

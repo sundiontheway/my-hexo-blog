@@ -1,6 +1,7 @@
 title: ZooKeeper 帮助手册个人翻译版
 date: 2014-10-14
 categories: 开源工具
+tags: zookeeper
 
 ---
 

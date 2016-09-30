@@ -1,7 +1,7 @@
 title: meld | 变成git默认diff工具
 date: 2013-01-04
 categories: 开源工具
-
+tags: meld
 ---
 
 使用meld作为git可视化的diff工具。
