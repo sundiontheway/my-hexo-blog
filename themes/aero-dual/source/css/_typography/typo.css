@@ -170,7 +170,7 @@ mark {
 
 /* 代码片断 */
 pre, code, pre tt {
-  font-family: Courier, 'Courier New', monospace;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 }
 
 pre {
