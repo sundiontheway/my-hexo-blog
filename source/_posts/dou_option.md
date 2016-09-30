@@ -1,7 +1,6 @@
 title: Doubango | Demo提供的操作
 date: 2014-03-01
-categories: 技术
-tags: doubango
+categories: 多媒体
 
 ---
 

@@ -1,7 +1,6 @@
 title: python | 上一级目录文件import的问题
 date: 2014-01-01
-categories: 技术
-tags: python
+categories: Python
 
 ---
 

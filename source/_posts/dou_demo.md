@@ -1,7 +1,6 @@
 title: Doubango | DEMO
 date: 2014-03-01
-categories: 技术
-tags: doubango
+categories: 多媒体
 
 ---
 

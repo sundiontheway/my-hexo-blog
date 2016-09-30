@@ -1,7 +1,6 @@
 title: Python VirtualEnv | 如何进入工程目录自动加载
 date: 2015-11-13
-categories: 技术
-tags: python
+categories: Python
 
 ---
 

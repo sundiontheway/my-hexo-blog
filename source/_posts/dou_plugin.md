@@ -1,7 +1,6 @@
 title: Doubango | proxy,pruducer,codec三种插件的创建
 date: 2014-03-01
-categories: 技术
-tags: doubango
+categories: 多媒体
 
 ---
 

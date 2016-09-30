@@ -1,7 +1,7 @@
 title: 从python的协程理解tornado的异步处理
 date: 2015-05-31
-categories: 技术
-tags: python
+categories: Python
+
 ---
 
 刚接触tornado时候最疑惑的问题就是tornado.gen.coroutine是怎么实现的。如何在代码中用同步格式实现异步效果。看了几次源码发现其实就是python协程的一个具体应用。下面从生成器开始，说说tornado的异步。

@@ -1,7 +1,6 @@
 title: Doubango | 音视频插件的注册和初始化机制
 date: 2014-03-01
-categories: 技术
-tags: doubango
+categories: 多媒体
 
 ---
 

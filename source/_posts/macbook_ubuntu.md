@@ -1,7 +1,6 @@
 title: macbook安装ubuntu
 date: 2013-01-04
-categories: 技术
-tags: macbook
+categories: 开源工具
 
 ---
 

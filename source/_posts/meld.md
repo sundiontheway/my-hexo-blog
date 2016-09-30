@@ -1,7 +1,6 @@
 title: meld | 变成git默认diff工具
 date: 2013-01-04
-categories: 技术
-tags: meld
+categories: 开源工具
 
 ---
 

@@ -1,7 +1,6 @@
 title: GO语言 | 要点总结
 date: 2015-02-01
-categories: 技术
-tags: go
+categories: Go
 ---
 
 Go语言的学习笔记。
