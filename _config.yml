@@ -66,7 +66,7 @@ pagination_dir: page
 # Extensions
 #theme: next
 theme: aero-dual
-theme_style: dark
+#theme_style: dark
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
