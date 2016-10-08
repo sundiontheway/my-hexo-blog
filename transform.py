@@ -28,7 +28,7 @@ def _count_word(text):
     return num
 
 
-def _format():
+def _format(fname):
     fsrc = os.path.join(draft_dir, fname)
     date = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
     cache, tmp, line = [], '', ''
