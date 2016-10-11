@@ -50,6 +50,7 @@ def _format(fname):
                 mark = True
                 break
             else:
+                cache.append(line)
                 break
 
         content = src.read()
@@ -59,8 +60,8 @@ def _format(fname):
             rtime = int(num/500)
             tag = '> **阅读时间: %s分钟**\n' % rtime
             cache.append(tag)
-            cache.append(more_tag)
 
+        cache.append(more_tag)
         cache.append(content)
         tmp = ''.join(cache)
 
