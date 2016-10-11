@@ -47,7 +47,6 @@ def _format(fname):
                 cache.append(line)
             elif '>' in line:
                 cache.append(line)
-                cache.append(more_tag)
                 mark = True
                 break
             else:
@@ -58,7 +57,8 @@ def _format(fname):
         if mark:
             num = _count_word(content.decode('utf-8'))
             rtime = int(num/500)
-            tag = '\n** 本文%s字  %s分钟读完 **\n\n' % (num, rtime)
+            tag = '> **阅读时间%s分钟**\n' % (num, rtime)
+            cache.append(more_tag)
             cache.append(tag)
 
         cache.append(content)
