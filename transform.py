@@ -57,9 +57,9 @@ def _format(fname):
         if mark:
             num = _count_word(content.decode('utf-8'))
             rtime = int(num/500)
-            tag = '> **阅读时间%s分钟**\n' % (num, rtime)
-            cache.append(more_tag)
+            tag = '> **阅读时间: %s分钟**\n' % rtime
             cache.append(tag)
+            cache.append(more_tag)
 
         cache.append(content)
         tmp = ''.join(cache)
@@ -74,8 +74,8 @@ def _format(fname):
     with open(fdst, 'w') as dst:
         dst.write(tmp)
 
-    # print("Remove {0}".format(fsrc))
-    # os.remove(src)
+    print("Backup {0}".format(fsrc))
+    os.rename(fsrc, '%s.bak' % fsrc)
     return
 
 
