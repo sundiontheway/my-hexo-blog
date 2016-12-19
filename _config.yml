@@ -112,12 +112,4 @@ path: sitemap.xml
 
 #RSS订阅
 plugin:
-- hexo-generator-feed
-#Feed Atom
-feed:
-type: atom
-path: atom.xml
-limit: 20
-# =============================================================================
-# End NexT Theme configuration
-# =============================================================================
+    hexo-generator-feed
