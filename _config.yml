@@ -64,7 +64,7 @@ per_page: 10
 pagination_dir: page
 
 # Extensions
-theme: cactus-dark
+theme: even
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -109,9 +109,7 @@ since: 2013
 # hexo sitemap网站地图
 sitemap:
 path: sitemap.xml
-#baidusitemap:
-#path: baidusitemap.xml
 
-# =============================================================================
-# End NexT Theme configuration
-# =============================================================================
+#RSS订阅
+plugin:
+    hexo-generator-feed
