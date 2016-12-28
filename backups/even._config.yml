@@ -26,6 +26,9 @@ menu:
 # site search option
 search: false
 
+# Fancybox
+fancybox: true
+
 # ===========================================
 # Theme Settings
 # ===========================================
