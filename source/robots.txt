@@ -10,6 +10,6 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://www.v2steve.com/sitemap.xml
-Sitemap: http://www.v2steve.com/baidusitemap.xml
+Sitemap: http://www.sund.site/sitemap.xml
+Sitemap: http://www.sund.site/baidusitemap.xml
 

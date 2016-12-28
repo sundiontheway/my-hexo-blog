@@ -8,7 +8,7 @@ tags: zookeeper
 原文地址：
 <http://zookeeper.apache.org/doc/r3.4.6/zookeeperProgrammers.html>  
 翻译：$teve  
-博客地址：<http://www.v2steve.com>  
+博客地址：<http://www.sund.site>  
 
 <!--more-->
 
