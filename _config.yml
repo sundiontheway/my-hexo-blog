@@ -64,7 +64,13 @@ per_page: 10
 pagination_dir: page
 
 # Extensions
-theme: even
+theme: apollo
+
+archive_generator:
+    per_page: 0
+    yearly: false
+    monthly: false
+    daily: false
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -77,9 +83,9 @@ deploy:
 # NexT Theme configuration
 # =============================================================================
 
-duoshuo_shortname: v2steve
+#duoshuo_shortname: v2steve
 # DISQUS 帐号 （如果已经设置 多说 帐号，此选项将被跳过）
-#disqus_shortname: v2steve
+disqus_shortname: v2steve
 
 # JiaThis 分享服务
 jiathis: true
