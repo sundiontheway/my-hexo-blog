@@ -8,6 +8,8 @@ case "$1" in
   "transfer")
     python script/transfer.py
     ;;
+  "new")
+    hexo new post "$2"
   "run")
     hexo clean && hexo g
     hexo s
