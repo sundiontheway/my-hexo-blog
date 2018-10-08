@@ -13,6 +13,7 @@ case "$1" in
     hexo s
     ;;
   "d")
+    hexo clean && hexo g
     hexo d
     exit 0
     ;;
