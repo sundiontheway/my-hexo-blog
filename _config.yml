@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: /home/steve
-subtitle: A little bit of workingman's blues.
-description: A blog of $teve.
-author: $teve D. Sun
+title: 丸の内サディスティック
+subtitle: 无论技术如何改变，不变的是操作的人  -- 押井守
+description: A blog of Di SUN.
+author: Di SUN
 language: zh-Hans
 timezone:
 
@@ -15,7 +15,7 @@ avatar: /image/sund.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.sund.site
+url: http://www.sund.site/archives
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
